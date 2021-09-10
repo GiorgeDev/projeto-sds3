@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Chart from 'react-apexcharts'
+import Chart from 'react-apexcharts';
 import { SaleSum } from 'types/sale';
 import { BASE_URL } from 'utils/requests';
 
@@ -25,14 +25,6 @@ const DonutChart = () => {
 
     }, []);
 
-
-
-
-    //const mockData = {
-    //series: [477138, 499928, 444867, 220426, 473088],
-    //labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
-
-
     const options = {
         legend: {
             show: true
@@ -55,8 +47,8 @@ const DonutChart = () => {
 
 export default DonutChart;
 
-function setChartData(arg0: { labels: string[]; series: number[]; }) {
-    throw new Error('Function not implemented.');
-}
+
+
+
 
 
